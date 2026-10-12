@@ -52,6 +52,32 @@ This is an academic simulation-based cybersecurity project. The results should n
 - Improve statistical evaluation and reproducibility.
 - Explore connections with quantum memory and hardware security research.
 
+## Installation and Execution
+
+### Requirements
+- Python 3.10 or newer
+- Qiskit
+- Qiskit Aer
+- NumPy
+- Matplotlib
+
+### Install dependencies
+```bash
+python -m pip install qiskit qiskit-aer numpy matplotlib
+```
+
+### Run the simulations
+```bash
+python qrng_baseline.py
+python qrng_noise.py
+python qrng_attack.py
+python qrng_randomness_tests.py
+python qrng_attack_detection.py
+python qrng_final_evaluation.py
+```
+
+These scripts explore baseline QRNG operation, simulated noise, attack conditions, randomness evaluation, and security-related analysis. Results are based on simulations rather than physical quantum hardware.
+
 ## Author
 Kalyan Raju  
 Doctor of Engineering Student, Electrical Engineering  
